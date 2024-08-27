@@ -16,7 +16,7 @@ sh 'mvn install'
 }
 stage('Deploy'){
 steps{
-sh 'cp target/GRRAS3.war /home/shashank/extracted/apache-tomcat-9.0.93/webapps
+sh 'cp target/GRRAS3.war /home/shashank/extracted/apache-tomcat-9.0.93/webapps'
 }
 }
 }
